@@ -38,5 +38,5 @@ la saisie des données utilisateur et afficher des messages d'erreur appropriés
 ### Modifications apportées au fichier lib.php pour des raisons de sécurité:
 - Le fichier lib.php a été modifié pour des raisons sécurité, car il contient les informations de connexion à ma base de données, telles que le nom d'hôte,
 mon identifiant et mon mot de passe.
-- Pour le lier à votre propre base de données, vous pouvez compléter les informations manquantes. Une fonction connecter() a été codée pour gérer la connexion à la base de données et lever une exception en cas d'échec de connexion. La partie catch{} sera exécutée pour gérer l'erreur.
+- Pour le lier à votre propre base de données, vous pouvez compléter les informations manquantes. Une fonction connecter() a été codée pour gérer la connexion à la base de données et lever une exception en cas d'échec de connexion. La partie catch{} sera exécutée pour gérer l'erreur de connexion.
 
