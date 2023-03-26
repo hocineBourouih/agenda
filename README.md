@@ -24,3 +24,8 @@ Les requêtes sont préparées à l'aide de la méthode prepare() de l'objet PDO
   - c. Insérer une personne: Ajoute un nouveau contact à la base de données via un formulaire.
   - d. Modifier une personne: Modifie les informations d'un contact existant à l'aide d'un formulaire pré-rempli.
   - e. Supprimer une personne: Supprime un contact de la base de données.
+
+
+### Mise à jour de la base de données:
+- Toute action telle que l'ajout, la modification ou la suppression d'un contact met à jour la base de données en conséquence.
+
