@@ -11,7 +11,7 @@
   - les modifications apportées au fichier lib.php pour des raisons de sécurité
 
 
-* 1 -  Protection contre les injections SQL grâce aux requêtes préparées:
+### Protection contre les injections SQL grâce aux requêtes préparées:
 Afin de protéger notre base de données contre les injections SQL, nous utilisons des requêtes préparées.
 Les requêtes préparées permettent de séparer les instructions SQL des données utilisateur, 
 empêchant ainsi toute tentative d'injection malveillante. 
