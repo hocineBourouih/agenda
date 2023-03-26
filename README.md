@@ -11,4 +11,8 @@
   - les modifications apportées au fichier lib.php pour des raisons de sécurité
 
 
-1 - jfdql
+* Protection contre les injections SQL grâce aux requêtes préparées:
+Afin de protéger notre base de données contre les injections SQL, nous utilisons des requêtes préparées.
+Les requêtes préparées permettent de séparer les instructions SQL des données utilisateur, 
+empêchant ainsi toute tentative d'injection malveillante. 
+Les requêtes sont préparées à l'aide de la méthode prepare() de l'objet PDO et les données sont liées aux paramètres via la méthode bindParam().
