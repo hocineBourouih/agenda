@@ -34,3 +34,9 @@ Les requêtes sont préparées à l'aide de la méthode prepare() de l'objet PDO
   - nom, prénom, date de naissance, téléphone et adresse. Des contrôles de validation sont mis en place pour vérifier
 la saisie des données utilisateur et afficher des messages d'erreur appropriés en cas d'erreurs.
 
+
+### Modifications apportées au fichier lib.php pour des raisons de sécurité:
+- Le fichier lib.php a été modifié pour des raisons sécurité, car il contient les informations de connexion à ma base de données, telles que le nom d'hôte,
+mon identifiant et mon mot de passe.
+- Pour le lier à votre propre base de données, vous pouvez compléter les informations manquantes. Une fonction connecter() a été codée pour gérer la connexion à la base de données et lever une exception en cas d'échec de connexion. La partie catch{} sera exécutée pour gérer l'erreur.
+
