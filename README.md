@@ -29,3 +29,8 @@ Les requêtes sont préparées à l'aide de la méthode prepare() de l'objet PDO
 ### Mise à jour de la base de données:
 - Toute action telle que l'ajout, la modification ou la suppression d'un contact met à jour la base de données en conséquence.
 
+### Informations de contact et gestion des erreurs du formulaire:
+- Le formulaire de l'application permet de saisir les informations suivantes: 
+  - nom, prénom, date de naissance, téléphone et adresse. Des contrôles de validation sont mis en place pour vérifier
+la saisie des données utilisateur et afficher des messages d'erreur appropriés en cas d'erreurs.
+
