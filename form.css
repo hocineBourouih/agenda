@@ -1,0 +1,92 @@
+span.c1{
+  /*background-color: aqua;*/
+  display:inline-block;
+	width:100px;
+}
+
+label
+{
+	display: inline-block;
+  width: 80px;
+}
+body { 
+  margin-left: 150px;
+  margin-right: 100px;
+  font-family: arial, helvetica;
+  font-size: 9pt;
+}
+
+h1 { 
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+
+.en_valeur { 
+  text-align: center;
+  color: red;
+  text-decoration: none;
+ background-color: #FFFF77;
+}
+a:hover { 
+  color: red;
+  text-decoration: underline;
+}
+
+input { 
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  font-family: arial, helvetica;
+  font-size: 8pt;
+  padding: 2px;
+  background-color: #FFFF77;
+}
+
+textarea { 
+  border: 1px solid black;
+  font-family: arial, helvetica;
+  font-size: 8pt;
+  padding: 2px;
+  background-color: #FFFF77;
+}
+
+select {  
+    font-family: arial, helvetica;
+  font-size: 8pt;
+  padding: 2px;
+  background-color: #FFFF77;
+}
+
+table { 
+  border: 1px solid black;
+  background-color: #FFBB66;
+}
+
+td { 
+  border: 1px solid black;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 10pt;
+  padding: 5px;
+  
+}
+
+td.titre { 
+  font-weight: bold;
+}
+.tdM { 
+
+  width: 75%;
+  
+}
+.tabM { 
+
+  width: 100%;
+  
+}
+
+#
+# A completer les classes calandrier,titre,mois,lien,normal
+#
